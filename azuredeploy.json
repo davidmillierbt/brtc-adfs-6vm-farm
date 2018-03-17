@@ -479,6 +479,7 @@
       "apiVersion": "2015-01-01",
       "dependsOn": [
         "Microsoft.Resources/deployments/nicsDeployment"
+		"Microsoft.Resources/deployments/storageAccountDeployment"
       ],
       "properties": {
         "mode": "Incremental",
@@ -523,6 +524,7 @@
       "apiVersion": "2015-01-01",
       "dependsOn": [
         "Microsoft.Resources/deployments/nicsDeployment"
+		"Microsoft.Resources/deployments/storageAccountDeployment"
       ],
       "properties": {
         "mode": "Incremental",
@@ -567,6 +569,7 @@
       "apiVersion": "2015-01-01",
       "dependsOn": [
         "Microsoft.Resources/deployments/nicsDeployment"
+		"Microsoft.Resources/deployments/storageAccountDeployment"
       ],
       "properties": {
         "mode": "Incremental",
