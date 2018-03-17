@@ -478,7 +478,7 @@
       "type": "Microsoft.Resources/deployments",
       "apiVersion": "2015-01-01",
       "dependsOn": [
-        "Microsoft.Resources/deployments/nicsDeployment"
+        "Microsoft.Resources/deployments/nicsDeployment",
 		"Microsoft.Resources/deployments/storageAccountDeployment"
       ],
       "properties": {
@@ -523,7 +523,7 @@
       "type": "Microsoft.Resources/deployments",
       "apiVersion": "2015-01-01",
       "dependsOn": [
-        "Microsoft.Resources/deployments/nicsDeployment"
+        "Microsoft.Resources/deployments/nicsDeployment",
 		"Microsoft.Resources/deployments/storageAccountDeployment"
       ],
       "properties": {
@@ -568,7 +568,7 @@
       "type": "Microsoft.Resources/deployments",
       "apiVersion": "2015-01-01",
       "dependsOn": [
-        "Microsoft.Resources/deployments/nicsDeployment"
+        "Microsoft.Resources/deployments/nicsDeployment",
 		"Microsoft.Resources/deployments/storageAccountDeployment"
       ],
       "properties": {
