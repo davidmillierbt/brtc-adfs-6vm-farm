@@ -195,7 +195,7 @@
     }
   },
   "variables": {
-    "baseUrl": "https://raw.githubusercontent.com/davidmillierbt/brtc-adfs-6vm-farm/master",
+    "baseUrl": "https://raw.githubusercontent.com/davidmillierbt/brtc-adfs-6vm-farm/master/",
     "storageAccountNamePrefix": "[concat(uniquestring(resourceGroup().id),'sa')]",
     "deployStorageAccountsUrl": "[concat(variables('baseUrl'),'/deployStorageAccounts.json')]",
     "deployPublicIPsUrl": "[concat(variables('baseUrl'),'/deployPublicIPs.json')]",
